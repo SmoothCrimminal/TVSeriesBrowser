@@ -30,17 +30,17 @@ body {
 .series-data-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .series-box {
     position: relative;
     margin: 5px;
     padding: 10px;
-    width: 320px;
+    flex-basis: 320px;
     color: #a5a5a5;
     background-color: #3f3f3f;
     font-size: 1.4rem;
-    flex-grow: 1;
 }
 
 .series-box img {
